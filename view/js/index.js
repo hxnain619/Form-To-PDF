@@ -35,7 +35,7 @@ function encodeImageFileAsURL(element) {
                 email: getValue("user-email"),
                 phone: getValue("user-phone"),
                 location: getValue("user-city"),
-                gender: document.getElementsByTagName("select")[0].selectedOptions[0].value
+                gender: document.getElementsByTagName("select")[1].selectedOptions[0].value
             }
 
             let xOriginForHeadings = 10, xOriginForData = 50, i, yOrigin = 50;
