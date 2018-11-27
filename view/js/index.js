@@ -31,7 +31,7 @@ function encodeImageFileAsURL(element) {
 
             let userData = {
                 name: getValue("user-name"),
-                batch: getValue("batch-name"),
+                batch: document.getElementsByTagName("select")[0].selectedOptions[0].value,
                 email: getValue("user-email"),
                 phone: getValue("user-phone"),
                 location: getValue("user-city"),
